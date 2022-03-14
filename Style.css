@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.navbar{
+    background-color: white;
+    border-radius: 5px;
+}
+.navbar ul{
+    overflow: auto;
+}
+.navbar li{
+    float: right;
+    list-style: none;
+    margin: 3px 3px;
+    padding-top: 10px;
+
+}
+.navbar li a{
+    padding: 11px 3px;
+    text-decoration: none;
+    color:black;
+    margin-right: 20px;
+    margin-top: 10px;
+    
+  
+}
+.navbar li a:hover{
+    color: red;
+}
+#cart{
+    margin-left: 90px;
+    color:#fe980f;
+    box-sizing: 20px;
+    cursor: pointer;
+
+}
+
+.search {
+    float: right;
+    color: white;
+    padding: 12px 75px;
+}
+.search input{
+    width: 173px;
+    border-radius: 14px;
+    padding: 3px 13px;
+
+}
+.hero{
+    width: 100%;
+}
+.row{
+    width: 90%;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.col{
+    flex-basis: 45%;
+}
+.slider{
+    height: 80vh;
+    display: flex;
+}
+.product img {
+    height: 19vh;
+    margin-bottom: 9px;
+    cursor: pointer;
+    opacity: 0.6;
+}
+.product img:hover{
+    opacity: 1;
+}
+.Project-h1{
+    padding-left: 5px;
+    color: #fe980f;
+}
+.preview img{
+    height: 100%;
+}
+p{
+    margin-bottom: 20px;
+}
+.brand{
+    background: #008000;
+    width: fit-content;
+    color: #fff;
+    font-size: 12px;
+    padding: 2px 5px;
+}
+h2{
+    font-size: 45px;
+    color: #555;
+    margin-bottom: 20px;
+}
+.rating{
+    display: flex;
+    height: 15px;
+}
+.rating .fa{
+    color: #fe980f;
+}
+.price{
+    color: gray;
+    font-size: 26px;
+    font-weight: bold;
+    padding-top: 10px;
+}
+input{
+    width: 30px;
+    border: 1px solid #ccc;
+    font-weight: bold;
+    text-align: center;
+}
+button{
+    color: #fff;
+    font-size: 15px;
+    outline: none;
+    border-radius: 20px;
+    background: #fe980f;
+    padding: 10px 15px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+.btn-1:hover{
+    background-color: rgb(181, 228, 228);
+}
+
+
+button .fa{
+    margin-right: 10px;
+}
+

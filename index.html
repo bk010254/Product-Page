@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product-Page
+    </title>
+  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="Style.css">
+    
+   
+</head>
+<body>
+   
+    <div class="hero">
+
+            <header>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#">Login/Sign Up</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <div class="search">
+                        <input type="text" name="search" id="search" placeholder="Search this Product">
+                        <i  id="cart" class="fa fa-shopping-cart"></i>
+                    </div>
+                    
+                </ul>
+              
+            </nav>
+        </header>
+        <div class="row">
+
+          <div class="col">
+                <h1 class="tag">Home /</h1>
+                <h4>Product Detail Page</h4>
+                <div class="slider">
+                    <div class="product">
+                        <img src="images/product1.png" alt="" onclick="clickme(this)">
+                        <img src="images/product2.png" alt="" onclick="clickme(this)">
+                        <img src="images/product3.png" alt="" onclick="clickme(this)">
+                        <img src="images/product4.png" alt="" onclick="clickme(this)">
+                    </div>
+                    <div class="preview">
+                        <img src="images/product1.png" id="imagebox" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <h1>Product Name ABC</h1>
+                <div class="content">
+                    <p class="brand">Product Category Name(Example Woman Dress)</p>
+                    <h2>Product Description</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit obcaecati error animi voluptas dolorum autem officiis tenetur laudantium mollitia laborum, corrupti voluptatibus eligendi. Nisi cumque consequatur repellat vel voluptate voluptas?</p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                                4.4 (328 reviews)
+                      
+                                <p class="Project-h1">Build My Project</p>
+                    </div>
+                    <p class="price">Brand: Varanga</p>
+                    <h1>₹2110.00</h1> per product
+                    <p>size: <select name="size">
+                        <option value="select size">select size</option>
+                        <option value="select size">small</option>
+                        <option value="select size">medium</option>
+                        <option value="select size">large</option>
+                        
+                    </select>
+                    </p>
+                    <p>Quantity<input type="text" value="1"></p>
+                    <button class="btn-1" type="button">
+                        <i class="fa fa-shopping-cart"></i>
+                        Add to cart</button>
+                </div>
+            </div>
+        </div>
+       
+    </div>
+    <script src="JavaScript.js"></script>
+</body>
+</html>
